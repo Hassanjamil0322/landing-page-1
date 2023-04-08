@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: 100%;
+}
+.heading{
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid transparent;
+    
+}
+#css-ani{
+    font-size: xx-large;
+    animation: tracking-out-expand-fwd-top 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s infinite both;
+
+}
+
+ @-webkit-keyframes tracking-out-expand-fwd-top {
+    0% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    100% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px) translateY(-200px);
+              transform: translateZ(300px) translateY(-200px);
+      opacity: 0;
+    }
+  }
+  @keyframes tracking-out-expand-fwd-top {
+    0% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+    60% {
+      opacity: 0.8;
+    }
+    100% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px) translateY(-200px);
+              transform: translateZ(300px) translateY(-200px);
+      opacity: 0;
+    }
+  }
+  
+a{
+    margin:15px;
+    text-decoration: none;
+    color: white;
+}
+.--heading{
+    margin-top: 5px;
+    margin-left:20px ;
+    color: white;
+}
+.heading--{
+    margin-top: 300px;
+    margin-left: 530px;
+color:white;
+}
+#bt2{ letter-spacing: 20px;
+
+}
+#bt1{
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    margin-top: 250px;
+    margin-left: 530px;
+
+}  
+.class{
+        background-image: url(https://wallpaperaccess.com/full/632198.jpg);
+        background-size: 100% 100% /cover;
+    height: 99vh;
+}
